@@ -1,7 +1,7 @@
 ---
 title: "HW01p"
-author: "Your Name Here"
-date: "February x, 2018"
+author: "Evangeline Szpylka"
+date: "February 24, 2018"
 output: pdf_document
 ---
 
@@ -16,13 +16,14 @@ To "hand in" the homework, you should compile or publish this file into a PDF th
 First, install the package `testthat` (a widely accepted testing suite for R) from https://github.com/r-lib/testthat using `pacman`. If you are using Windows, this will be a long install, but you have to go through it for some of the stuff we are doing in class. LINUX (or MAC) is preferred for coding. If you can't get it to work, install this package from CRAN (still using `pacman`), but this is not recommended long term.
 
 ```{r}
-#TO-DO
+pacman::p_load(testthat);
 ```
 
 1. Use the `seq` function to create vector `v` consisting of all numbers from -100 to 100. 
 
 ```{r}
-#TO-DO
+v = seq(-100 , 100);
+v;
 ```
 
 Test using the following code:
