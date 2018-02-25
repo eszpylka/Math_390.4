@@ -37,7 +37,9 @@ If there are any errors, the `expect_equal` function will tell you about them. I
 2. Create a function `my_reverse` which takes as required input a vector and returns the vector in reverse where the first entry is the last entry, etc. No function calls are allowed inside your function (otherwise that would defeat the purpose of the exercise).
 
 ```{r}
-#TO-DO
+my_reverse = function(vec){
+  #need to fill in below
+}
 ```
 
 Test using the following code:
@@ -51,7 +53,15 @@ expect_equal(my_reverse(v), rev(v))
 
 ```{r}
 n = 50
-#TO-DO
+R = matrix(NA, nrow = n, ncol = p)
+
+R[,] = sample(
+  c(0, 1, 2),
+  size = n,
+  replace = TRUE,
+  prob = c(.50, .25, .25)
+)
+View(R)
 ```
 
 Test using the following and write two more tests as specified below:
