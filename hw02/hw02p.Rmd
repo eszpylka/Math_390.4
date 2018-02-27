@@ -1,6 +1,6 @@
 ---
 title: "HW02p"
-author: "[Your Name Goes Here]"
+author: "Evangeline Szpylka"
 date: "March 6, 2018"
 output: pdf_document
 ---
@@ -13,7 +13,7 @@ The tools for the solutions to these problems can be found in the class practice
 
 To "hand in" the homework, you should compile or publish this file into a PDF that includes output of your code. To do so, use the knit menu in RStudio. You will need LaTeX installed on your computer. See the email announcement I sent out about this. Once it's done, push the PDF file to your github class repository by the deadline. You can choose to make this respository private.
 
-For this homework, you will need the `testthat` libray.
+For this homework, you will need the `testthat` library.
 
 ```{r}
 pacman::p_load(testthat)
