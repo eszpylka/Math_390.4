@@ -9,5 +9,5 @@ Homework 2p:
 [RMD](https://github.com/eszpylka/QC_Math_390.4_Spring_2018/blob/master/hw02/hw02p.Rmd)
 
 Homework 3p:
-[PDF] 
-[RMD]
+[PDF]()
+[RMD]()
