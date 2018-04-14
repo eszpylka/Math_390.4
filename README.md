@@ -10,4 +10,4 @@ Homework 2p:
 
 Homework 3p:
 [PDF]()
-[RMD]()
+[RMD](https://github.com/eszpylka/QC_Math_390.4_Spring_2018/blob/master/hw03/hw03p.Rmd)
